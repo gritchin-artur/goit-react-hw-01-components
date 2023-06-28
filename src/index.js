@@ -7,21 +7,15 @@ import user from './user.json';
 
 
 
-const Profile = (
-  username: {user.usernam},
-  tag: {user.tag},
- location:{user.location},
- avatar:{user.avatar},
- stats:{user.stats}) =>
-{
-<div class="profile">
+const Profile =
+  <div class="profile">
     <div class="description">
       <img
         src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
         alt="User avatar"
         class="avatar"
       />
-      <p class="name">{username}</p>
+      <p class="name">{user.username}</p>
       <p class="tag">@pmarica</p>
       <p class="location">Salvador, Brasil</p>
     </div>
@@ -40,12 +34,11 @@ const Profile = (
         <span class="quantity">3000</span>
       </li>
     </ul>
-  </div>
-};
+  </div>;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- { Profile}
+ {Profile}
 
     {/* <App /> */}
   </React.StrictMode>
