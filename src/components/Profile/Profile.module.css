@@ -1,0 +1,42 @@
+.profile {
+            padding: 20px;
+                    display: block;
+                    text-align: center;
+                    margin-top: 40px;
+                    background: gainsboro;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 30px;
+            display: flex;
+            justify-content: center;
+}
+
+.tag {
+    display: flex;
+            justify-content: center;
+}
+
+.location {
+    display: flex;
+        justify-content: center;
+}
+
+.stats {
+    display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+}
+
+.list {
+        display: grid;
+                gap: 10px;
+                padding: 10px;
+                background: aliceblue;
+}
+

@@ -1,0 +1,38 @@
+.statistics {
+      display: block;
+      text-align: center;
+            margin-top: 100px;
+            background: azure;
+      padding: 20px;
+}
+
+.statList {
+     display: flex;
+        justify-content: center;
+        list-style-type: none;
+            padding: 0;
+}
+
+.item {
+     height: 60px;
+                    width: 60px;
+          display: grid;
+                    gap: 10px;
+                    color: white;
+}
+
+.item:nth-child(1) {
+    background-color: #00BFFF;
+}
+
+.item:nth-child(2) {
+    background-color: #7B68EE;
+}
+
+.item:nth-child(3) {
+    background-color: #CD5C5C;
+}
+
+.item:nth-child(4) {
+    background-color: #20B2AA;
+}
