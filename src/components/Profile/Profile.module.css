@@ -2,8 +2,9 @@
             padding: 20px;
                     display: block;
                     text-align: center;
-                    margin-top: 40px;
+                    /* margin-top: 40px; */
                     background: gainsboro;
+                    margin: 150px;
 }
 
 .avatar {

@@ -7,6 +7,8 @@ import data from './data/data.json';
 import { Statistics } from 'components/Statistics/Statistics.jsx'
 import friends from './data/friends.json';
 import { FriendList } from './components/FriendList/FriendList.jsx'
+import transactions from './data/transactions.json';
+import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -26,8 +28,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <FriendList
       friends={friends}
       />
+      <TransactionHistory
+        items={transactions}
+      />
     </>
   </React.StrictMode>
+
 );
 
 

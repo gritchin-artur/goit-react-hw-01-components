@@ -6,11 +6,16 @@
       padding: 20px;
 }
 
+.statistics {
+margin: 150px;
+}
+
 .statList {
      display: flex;
         justify-content: center;
         list-style-type: none;
             padding: 0;
+            
 }
 
 .item {
