@@ -1,29 +1,29 @@
 .statistics {
-      display: block;
-      text-align: center;
-            margin-top: 100px;
-            background: azure;
-      padding: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    background: azure;
+    padding: 20px;
 }
 
 .statistics {
-margin: 150px;
+    margin: 150px;
 }
 
 .statList {
-     display: flex;
-        justify-content: center;
-        list-style-type: none;
-            padding: 0;
-            
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+
 }
 
 .item {
-     height: 60px;
-                    width: 60px;
-          display: grid;
-                    gap: 10px;
-                    color: white;
+    height: 60px;
+    width: 60px;
+    display: grid;
+    gap: 10px;
+    color: white;
 }
 
 .item:nth-child(1) {
@@ -40,4 +40,8 @@ margin: 150px;
 
 .item:nth-child(4) {
     background-color: #20B2AA;
+}
+
+.item:nth-child(5) {
+    background-color: #206eb2;
 }
