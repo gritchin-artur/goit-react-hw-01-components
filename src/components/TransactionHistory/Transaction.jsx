@@ -1,5 +1,6 @@
 import transHistory from 'data/transactions.json';
-import css from './TransactionHistory.module.css'
+import css from './TransactionHistory.module.css';
+import propTypes from 'prop-types';
 
 export const Transaction = () => {
     return transHistory.map(({id, type, amount, currency }) => {
@@ -15,3 +16,12 @@ export const Transaction = () => {
       )
 })
 }
+
+Transaction.propTypes = {
+    transHistory: propTypes.arrayOf(propTypes.shape({
+        id: propTypes.func.isRequired,
+        type: propTypes.func.isRequired,
+        amount: propTypes.func.isRequired,
+        currency: propTypes.func.isRequired,
+    })),
+};

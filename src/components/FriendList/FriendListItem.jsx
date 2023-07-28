@@ -1,5 +1,6 @@
 import friends from 'data/friends.json';
-import css from'./FriendList.module.css';
+import css from './FriendList.module.css';
+import propTypes from 'prop-types';
 
 export const FriendListItem = () => {
     return friends.map(({id, isOnline, avatar, name}) => {
@@ -11,4 +12,13 @@ export const FriendListItem = () => {
                 </li>
         )
     })
+};
+
+FriendListItem.propTypes = {
+      friends: propTypes.arrayOf(propTypes.shape({
+        id: propTypes.func.isRequired,
+        isOnline: propTypes.func.isRequired,
+        avatar: propTypes.func.isRequired,
+        name: propTypes.func.isRequired,
+    })),
 };

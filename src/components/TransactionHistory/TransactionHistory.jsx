@@ -15,7 +15,5 @@ export const TransactionHistory = () => {
                     <Transaction></Transaction>
                 </table>
             </>
-    
-             
     )
 };
