@@ -4,8 +4,8 @@ import propTypes from 'prop-types';
 
 
 export const TransactionHistory = ({ items }) => (
-    <table className={css.transactionHistory}>
-        <thead >
+    <table >
+        <thead className={css.transactionHistory}>
             <tr className={css.transactionOptions}>
                 <th className={css.transactionNet}>Type</th>
                 <th className={css.transactionNet}>Amount</th>
